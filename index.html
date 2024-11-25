@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de Layout de site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            height: 80vh;
+        }
+        .main {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #ccc;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo site</h1>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <h2>Seção Principal</h2>
+            <p>Conteudo principal vai aqui o que tem mais de relevante</p>
+        </div>
+        <div class="sidebar">
+            <h3>Barra Lateral</h3>
+            <p>aqui pode ir links ou informações adicionais</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 exempo site</p>
+    </footer>
+</body>
+</html>
